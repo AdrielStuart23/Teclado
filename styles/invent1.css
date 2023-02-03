@@ -13,10 +13,11 @@ main{
     width: 70%;
     display: flex;
     flex-direction: column;
-    margin: 9% 0;
+    margin: 7vh 0;
     background-color: rgb(39, 35, 35);
     border-radius: 10vh;
     padding-bottom: 20px;
+    position: absolute;
 }
 .pantalla{
     width: 100%;
@@ -25,6 +26,7 @@ main{
     justify-content: space-around;
     border-radius: 5vh 5vh 0 0 ;
     padding: 15px 0;
+    margin: 0 0 2vh 0;
 }
 .pantalla .flecha{
     width: 65px;
@@ -59,7 +61,8 @@ main{
     gap: 5px;
     margin-top: 2%;
     flex-wrap: wrap;
-    justify-content: center;
+    
+
 
 
 }
@@ -67,11 +70,17 @@ main{
     width: 70px;
     height: 90px;
     border-radius: 5vh;
-    font-size: 60px;
+    font-size: 30px;
     color: #0079FF;
     background-color:rgba(7, 7, 7, 0.753) ;
     border-bottom: 1vh solid black;
 }
 #espacio{
     width: 213px;
+}
+.fila1 , .fila2 , .fila3 , .fila4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }

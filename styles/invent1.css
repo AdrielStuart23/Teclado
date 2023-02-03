@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+main{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 9% 0;
+    background-color: rgb(39, 35, 35);
+    border-radius: 10vh;
+    padding-bottom: 20px;
+}
+.pantalla{
+    width: 100%;
+    display: flex;
+    background-color:rgb(7, 7, 7) ;
+    justify-content: space-around;
+    border-radius: 5vh 5vh 0 0 ;
+    padding: 15px 0;
+}
+.pantalla .flecha{
+    width: 65px;
+    background-color:rgb(39, 35, 35) ;
+    border-radius: 100vh;
+    display: flex   ;
+    justify-content: center;
+    align-items: center;
+}
+.flecha img{
+    width: 90%;
+    height: 80%;
+    border-radius: 100vh;
+}
+.pantalla > #pantalla{
+    width: 78%;
+    height: 10vh;
+    border: none;
+    border-radius: 10vh;
+    background-color: rgb(39, 35, 35);
+    font-size: 30px;
+    text-align:start;
+    color: #0079FF;
+    padding: 0 10vh;
+}
+#pantalla::placeholder{
+    color: #0079FF;
+}
+.teclado{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.teclado .Tecla{
+    width: 70px;
+    height: 90px;
+    border-radius: 5vh;
+    font-size: 60px;
+    color: #0079FF;
+    background-color:rgba(7, 7, 7, 0.753) ;
+    border-bottom: 1vh solid black;
+}
+#espacio{
+    width: 213px;
+}

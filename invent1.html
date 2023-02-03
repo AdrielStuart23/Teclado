@@ -8,66 +8,74 @@
     <link rel="stylesheet" href="styles/invent1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="js/control-audio.js    " defer></script>
 <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 </head>
 <body>
+    <audio src="audio/audio1.mp3" id="audio"></audio>
+    <audio src="audio/audio2.mp3" id="audio2"></audio>
+    <audio src="audio/envio.mp3"></audio>
         <main>
             <div class="pantalla">
                 <input type="" name="" disabled placeholder="Escriba un Mensaje ..." id="pantalla">
-                <div class="flecha" id="enviar"><img src="img/flecha-de-angulo-apuntando-a-la-derecha.png" alt=""></div>
+                <div class="flecha" id="enviar">
+                    <img src="img/flecha-de-angulo-apuntando-a-la-derecha.png" alt="">
+                    <div class="flecha1"></div>
+                </div>
             </div>
             <div class="teclado">
                 <div class="fila1">
-                    <input type="button" value="1" id="1" class="Tecla">
-                    <input type="button" value="2" id="2" class="Tecla">
-                    <input type="button" value="3" id="3" class="Tecla">
-                    <input type="button" value="4" id="4" class="Tecla">
-                    <input type="button" value="5" id="5" class="Tecla">
-                    <input type="button" value="6" id="6" class="Tecla">
-                    <input type="button" value="7" id="7" class="Tecla">
-                    <input type="button" value="8" id="8" class="Tecla">
-                    <input type="button" value="9" id="9" class="Tecla">
-                    <input type="button" value="0" id="0" class="Tecla">
+                    <input type="button" value="1" id="1" class="Tecla" onclick="PlayControl()">
+                    <input type="button" value="2" id="2" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="3" id="3" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="4" id="4" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="5" id="5" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="6" id="6" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="7" id="7" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="8" id="8" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="9" id="9" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="0" id="0" class="Tecla"onclick="PlayControl()">
 
                 </div>
                 <div class="fila2">
 
-                    <input type="button" value="A" id="A" class="Tecla">
-                    <input type="button" value="B" id="B" class="Tecla">
-                    <input type="button" value="C" id="C" class="Tecla">
-                    <input type="button" value="D" id="D" class="Tecla">
-                    <input type="button" value="E" id="E" class="Tecla">
-                    <input type="button" value="F" id="F" class="Tecla">
-                    <input type="button" value="G" id="G" class="Tecla">
-                    <input type="button" value="H" id="H" class="Tecla">
-                    <input type="button" value="I" id="I" class="Tecla">
-                    <input type="button" value="J" id="J" class="Tecla">
-                    <input type="button" value="K" id="K" class="Tecla">
+                    <input type="button" value="A"  id="A" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="B" id="B" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="C" id="C" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="D" id="D" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="E" id="E" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="F" id="F" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="G" id="G" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="H" id="H" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="I" id="I" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="J" id="J" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="K" id="K" class="Tecla"onclick="PlayControl()">
 
 
 
 
                 </div>
                 <div class="fila3">
-                    <input type="button" value="L" id="L" class="Tecla">
-                    <input type="button" value="M" id="M" class="Tecla">
-                    <input type="button" value="N" id="N" class="Tecla">
-                    <input type="button" value="O" id="O" class="Tecla">
-                    <input type="button" value="P" id="P" class="Tecla">
-                    <input type="button" value="Q" id="Q" class="Tecla">
-                    <input type="button" value="R" id="R" class="Tecla">
-                    <input type="button" value="S" id="S" class="Tecla">
-                    <input type="button" value="T" id="T" class="Tecla">
-                    <input type="button" value="U" id="U" class="Tecla">
-                    <input type="button" value="W" id="W" class="Tecla">
+                    <input type="button" value="L" id="L" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="M" id="M" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="N" id="N" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="O" id="O" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="P" id="P" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="Q" id="Q" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="R" id="R" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="S" id="S" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="T" id="T" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="U" id="U" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="W" id="W" class="Tecla"onclick="PlayControl()">
 
                 </div>
                 <div class="fila4">
 
-                    <input type="button" value="X" id="X" class="Tecla">
-                    <input type="button" value="Espacio" id="espacio" class="Tecla">
-                    <input type="button" value="Y" id="Y" class="Tecla">
-                    <input type="button" value="Z" id="Z" class="Tecla">
+                    <input type="button" value="X" id="X" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="Espacio" id="espacio" class="Tecla"onclick="PlayControl2()">
+                    <input type="button" value="Y" id="Y" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="Z" id="Z" class="Tecla"onclick="PlayControl()">
+                    <input type="button" value="Borrar" id="borrar" class="Tecla"onclick="PlayControl2()">
         
                 </div>
             </div>
@@ -77,7 +85,7 @@
             <h1>Escribir</h1>
             <div class="norotar">
             </div>     
-
+            <!-- <input type="button" value="click" style="width: 100px;" onclick="MostrarTeclado()" > -->
         </div>
 </body>
 </html>
